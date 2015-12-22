@@ -1,0 +1,11 @@
+doctype html
+head
+    title!= title
+body
+    body
+        h1!= body.h1
+        p1!= body.p1
+        ul
+            each val in body.links
+                li
+                    a(href!= val.uri)!= val.text

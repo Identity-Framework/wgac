@@ -1,0 +1,22 @@
+{
+  "name": "wgac",
+  "version": "0.0.1",
+  "description": "Group access control using WebID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cory Sabol",
+  "license": "MIT",
+  "dependencies": {
+    "acl": "^0.4.7",
+    "chai": "^3.4.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "jade": "^1.11.0",
+    "mime": "^1.3.4",
+    "n3": "^0.4.3",
+    "rdflib": "^0.2.9",
+    "webid": "^0.3.1"
+  }
+}
